@@ -1,6 +1,6 @@
+// @ts-nocheck
 import { TextItem, TextItems } from "./types";
 import * as pdfjs from "pdfjs-dist";
-// @ts-nocheck
 import pdfjsWorker from "pdfjs-dist/build/pdf.worker.entry";
 pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
